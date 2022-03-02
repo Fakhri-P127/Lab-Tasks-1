@@ -31,7 +31,7 @@ namespace ConsoleApp1
             string myObj= "";
             foreach (var user in users)
             {
-                myObj=  $"Name: {user.Name}\nSurname: {user.Surname}\nUsername: {user.Username}\nPassword: {user.Password}\nId: {user.Id}";
+                myObj=  $"Name: {user.Name}\nSurname: {user.Surname}\nUrname: {user.Username}\nPassword: {user.Password}\nId: {user.Id}";
             }
             return myObj; 
         }
